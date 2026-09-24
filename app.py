@@ -6,7 +6,7 @@ import numpy as np
 model = pickle.load(open(r'C:\Users\Dell\Downloads\FSDS_Course\MachineLearning\linear_regression_model.pkl', 'rb'))
 
 # Set the title of the Streamlit app
-st.title("Salary Prediction App created by Prakash Senapati")
+st.title("Salary Prediction App ")
 
 # Add a brief description
 st.write("This app predicts the salary based on years of experience using a simple linear regression model.")
